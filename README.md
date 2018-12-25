@@ -1,5 +1,7 @@
 # @rproenza/jsx-micro-ui-poc
 
+> [Online demo](https://micro-ui-system.firebaseapp.com/)
+
 ## Description
 
 Web app to show how to use Micro UI/Micro Frontends architecture an use an event distribution system to communicate apps events.
@@ -12,7 +14,7 @@ The idea behind [Micro Frontends](https://micro-frontends.org/) is to think abou
 
 [@rproenza/appointment-date-picker](https://github.com/rproenza86/appointment-date-picker) is a Micro UI created to showcase this architectural solution. It was developed as an npm module flexible enough to adapt its style and behavior.
 
-Ex. of it use
+#### Ex. of it use
 
 ```javascript
 import AppointmentDatePicker from '@rproenza/appointment-date-picker';
@@ -32,6 +34,9 @@ const appointmentStore = createStore(AppointmentDatePickerInitialState);
 EventsDistributor.registerStore(appName, appointmentStore);
 initApp(appointmentStore, 'MicroUICmp', EventsDistributor);
 ```
+
+#### Screenshot
+[MicroUI_app.png](docs/MicroUI_app.png)
 
 ### Event communication system
 
@@ -59,6 +64,12 @@ const resetState = {
 
 EventsDistributor.dispatch(resetState);
 ```
+
+#### Screenshot
+
+> Action dispatched on the onClick event of the reset button
+
+[MicroUI_app.png](docs/Reset_button.png)
 
 ## Installation
 

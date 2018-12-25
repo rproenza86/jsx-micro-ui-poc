@@ -1,6 +1,6 @@
 {
     "name": "@rproenza/jsx-micro-ui-poc",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "Web app to show how to use Micro UI architecture an use an event distribution system to communicate apps events",
     "private": false,
     "dependencies": {
@@ -24,7 +24,8 @@
         "start": "react-scripts-ts start",
         "build": "react-scripts-ts build",
         "test": "react-scripts-ts test --env=jsdom",
-        "eject": "react-scripts-ts eject"
+        "eject": "react-scripts-ts eject",
+        "deploy":  "firebase deploy"
     },
     "repository": {
       "type": "git",
