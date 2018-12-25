@@ -36,7 +36,7 @@ initApp(appointmentStore, 'MicroUICmp', EventsDistributor);
 ```
 
 #### Screenshot
-[MicroUI_app.png](docs/MicroUI_app.png)
+![image](docs/MicroUI_app.png)
 
 ### Event communication system
 
@@ -69,7 +69,7 @@ EventsDistributor.dispatch(resetState);
 
 > Action dispatched on the onClick event of the reset button
 
-[MicroUI_app.png](docs/Reset_button.png)
+![image](docs/Reset_button.png)
 
 ## Installation
 
