@@ -48,7 +48,7 @@ Ex.:
 const resetState = {
     type: 'INIT_SUCCESS',
     payload: {
-        testDrive: {
+        appointmentData: {
             day: '2018-12-10T16:39:14.953Z',
             hasError: false,
             time: 'Morning'

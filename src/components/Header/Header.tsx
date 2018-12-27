@@ -10,12 +10,12 @@ class Header extends Component {
             payload: {
                 testDrive: {
                     day: '2018-12-10T16:39:14.953Z',
-                    email: 'dfffdf@gmail.com',
+                    email: 'raul@gmail.com',
                     firstName: 'Raul',
                     hasError: false,
                     isCalculating: false,
                     lastName: 'Rodriguez Proenza',
-                    phone: '786-624-8576',
+                    phone: '123-624-4321',
                     time: 'Morning'
                 }
             },
