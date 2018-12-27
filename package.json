@@ -1,41 +1,43 @@
 {
     "name": "@rproenza/jsx-micro-ui-poc",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "description": "Web app to show how to use Micro UI architecture an use an event distribution system to communicate apps events",
     "private": false,
+    "scripts": {
+        "start": "react-scripts-ts start",
+        "build": "react-scripts-ts build",
+        "test": "react-scripts-ts test --env=jsdom",
+        "eject": "react-scripts-ts eject",
+        "deploy": "firebase deploy"
+    },
     "dependencies": {
-        "@rproenza/appointment-date-picker": "^1.1.0",
+        "@rproenza/appointment-date-picker": "1.2.0",
         "@rproenza/events-distributor": "^1.1.0",
         "@types/react-redux": "^6.0.11",
         "react": "^16.7.0",
         "react-dom": "^16.7.0",
         "react-material-design": "^0.4.3",
-        "react-redux": "^6.0.0"
+        "react-redux": "^6.0.0",
+        "react-syntax-highlighter": "^10.1.2"
     },
     "devDependencies": {
         "@types/jest": "^23.3.10",
         "@types/node": "^10.12.18",
         "@types/react": "^16.7.18",
         "@types/react-dom": "^16.0.11",
+        "@types/react-syntax-highlighter": "^10.1.0",
         "react-scripts-ts": "3.1.0",
         "typescript": "^3.2.2"
     },
-    "scripts": {
-        "start": "react-scripts-ts start",
-        "build": "react-scripts-ts build",
-        "test": "react-scripts-ts test --env=jsdom",
-        "eject": "react-scripts-ts eject",
-        "deploy":  "firebase deploy"
-    },
     "repository": {
-      "type": "git",
-      "url": "git+https://github.com/rproenza86/jsx-micro-ui-poc"
+        "type": "git",
+        "url": "git+https://github.com/rproenza86/jsx-micro-ui-poc"
     },
     "keywords": [],
     "author": "Raul Rodriguez Proenza <raul.r.proenza@gmail.com> (https://github.com/rproenza86)",
     "license": "GPL-3.0-or-later",
     "bugs": {
-      "url": "https://github.com/rproenza86/jsx-micro-ui-poc/issues"
+        "url": "https://github.com/rproenza86/jsx-micro-ui-poc/issues"
     },
     "homepage": "https://github.com/rproenza86/jsx-micro-ui-pocr#readme"
 }

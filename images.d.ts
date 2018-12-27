@@ -8,3 +8,4 @@ declare module '*.tiff'
 
 declare module 'react-material-design';
 declare module '@rproenza/appointment-date-picker';
+declare module 'rainbow-code/dist/rainbow';

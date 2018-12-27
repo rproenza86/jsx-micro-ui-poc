@@ -24,7 +24,7 @@ const { createStore, initApp, appName } = AppointmentDatePicker;
 const AppointmentDatePickerInitialState = {
     appointmentData: {
         day: '2018-12-19T16:39:14.953Z',
-        email: 'dfffdf@gmail.com',
+        email: 'raul@gmail.com',
         firstName: 'Raul',
         lastName: 'Proenza',
         time: 'Morning'
@@ -50,12 +50,7 @@ const resetState = {
     payload: {
         testDrive: {
             day: '2018-12-10T16:39:14.953Z',
-            email: 'dfffdf@gmail.com',
-            firstName: 'Raul',
             hasError: false,
-            isCalculating: false,
-            lastName: 'Rodriguez Proenza',
-            phone: '786-624-8576',
             time: 'Morning'
         }
     },

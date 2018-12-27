@@ -24,7 +24,7 @@ class Header extends Component {
         EventsDistributor.dispatch(resetState);
     }
     public render() {
-        const title = 'Micro UI POC App';
+        const title = 'Micros for Macros';
         // tslint:disable:jsx-no-lambda no-console
         return (
             <div>

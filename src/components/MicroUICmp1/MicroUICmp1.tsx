@@ -25,7 +25,7 @@ class MicroUICmp1 extends Component {
     }
     public render() {
         return (
-            <Card style={{ maxWidth: '500px'}}>
+            <Card style={{ maxWidth: '500px', justifyContent: 'center'}}>
                 <div id="MicroUICmp1" />
             </Card>
         );
